@@ -6,3 +6,5 @@ $(".img-thumbnail").parent().on("mouseenter", function(){
 $(".img-thumbnail").parent().on("mouseleave", function(){
     $(this).find(".describe").fadeOut();
 }); 
+
+$('#lefty').height($(document).height());
