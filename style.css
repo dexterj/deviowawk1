@@ -1,14 +1,7 @@
-body {
-    font-family:'Gill Sans', 'Helvetica', 'Verdana', sans-serif;
-}
-
-a {
-    color: #888;
-}
-
-a:hover {
-    color:#444;
-}
+body {font-family:'Gill Sans', 'Helvetica', 'Verdana', sans-serif;}
+a {color: #888;}
+a:hover {color:#444;}
+h1 {color:#a90329;font-size:4em;}
 
 .container {
     position:relative;
@@ -23,17 +16,9 @@ a:hover {
 }
 
 #lefty {
+    background:url('images/cardboard.png');
     top:-10px;
     padding-top: 20px;
-    background: #ddd;
-    height: 500px;
-    box-shadow: 2px 2px 5px #444;
-}
-
-#otherlefty {
-    top:-10px;
-    padding-top: 20px;
-    background: #ddd;
     height: 500px;
     box-shadow: 2px 2px 5px #444;
 }
@@ -41,6 +26,11 @@ a:hover {
 .fix-width {
     width:100%;
     box-shadow: 2px 2px 5px #444;
+}
+.fix-width:hover {
+    transition:all 1s ease-in-out;
+    -webkit-transform:rotate(3deg);
+    box-shadow: none;
 }
 
 .describe {
